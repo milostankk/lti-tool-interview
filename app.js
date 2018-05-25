@@ -37,5 +37,5 @@ const server = https.createServer(options, app);
 server.listen(1024);
 console.log('Https server listening: 443');
 
-app.listen(3000, console.log('Example app listening on port 3000!'));
+app.listen(3000, console.log('LTI App listening on port 3000!'));
 
